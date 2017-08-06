@@ -1,0 +1,6 @@
+framework module AVFonts {
+  umbrella header "AVFonts-umbrella.h"
+
+  export *
+  module * { export * }
+}

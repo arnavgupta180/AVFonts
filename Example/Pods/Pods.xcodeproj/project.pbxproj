@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03956F8284F6265A54E82A257A91B444 /* Pods-AVFonts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF612CDE4A1D1083FB009423222F33D9 /* Pods-AVFonts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A635C4202355602D5CFF012B5CB405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6BF2FAC46F4EDDF38E3D72AE63D59B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		84F12C9AAD1FBC077A4704A24387DD4E /* Pods-AVFonts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BBBA3EBCDD057D246A3A6ECDEBC7B9 /* Pods-AVFonts_Example-dummy.m */; };
+		B38F3E77B874D95A5D8C21F3FE64BBB8 /* AVFonts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F53D5B4830E86A77E609F641DEB8 /* AVFonts-dummy.m */; };
+		C46A173A1D02737B80A1C794E3000C00 /* AVFonts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BCAED155475654732F91BEEC727A43 /* AVFonts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08099DFE8F6F9396FF6592E78D63C97 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF28623E44208D9CFA97DB6442C116 /* ReplaceMe.swift */; };
+		E33C7A25517E72E50B383ADAB23A4787 /* Pods-AVFonts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F285FA6C87A937F6A213B8E2716F67B1 /* Pods-AVFonts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9D2776BBDCD5ADB91F64B4D555C249 /* Pods-AVFonts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5E618E9C9820B135827932E9BEBD53 /* Pods-AVFonts_Tests-dummy.m */; };
+		EFF715C7A11EA48E332C13EA959D1FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEEDC9E5804E1482CCBF6810F024B4DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8EEE0E12B83B53A79298EF7CF78E888;
+			remoteInfo = AVFonts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A4F53D5B4830E86A77E609F641DEB8 /* AVFonts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVFonts-dummy.m"; sourceTree = "<group>"; };
+		197FF9ADD27489E3685F54F91BDA4518 /* Pods-AVFonts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Example-resources.sh"; sourceTree = "<group>"; };
+		29949A78FF633CAA97E2F7890BA3B956 /* AVFonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AVFonts.framework; path = AVFonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B9E8C01C5F3B7A1473F39B0DAA9163 /* Pods-AVFonts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AVFonts_Example.modulemap"; sourceTree = "<group>"; };
+		5C3B3B8E1D378894DD0562EEABA45445 /* Pods-AVFonts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3F2E61D25A82EF854CE326236A2CC6 /* Pods-AVFonts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AVFonts_Tests.modulemap"; sourceTree = "<group>"; };
+		630677D4A3197B152DAD4BBD543C8649 /* Pods-AVFonts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68DE8DCCD115D8CABAA0666948E6C911 /* Pods-AVFonts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Tests-resources.sh"; sourceTree = "<group>"; };
+		90BBBA3EBCDD057D246A3A6ECDEBC7B9 /* Pods-AVFonts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFonts_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BCAED155475654732F91BEEC727A43 /* AVFonts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVFonts-umbrella.h"; sourceTree = "<group>"; };
+		9A44EC41B49007313EC76CBB627B907F /* Pods-AVFonts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B2D21B181961991CFCD56EA7F79FE8D /* Pods-AVFonts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5E618E9C9820B135827932E9BEBD53 /* Pods-AVFonts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFonts_Tests-dummy.m"; sourceTree = "<group>"; };
+		9EA18A39CEEF3E36F011ECEBF887960C /* AVFonts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVFonts-prefix.pch"; sourceTree = "<group>"; };
+		ABDB1F0CEE15D50ACA3140BBFB81F46B /* Pods-AVFonts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFonts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADCF28623E44208D9CFA97DB6442C116 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		AF612CDE4A1D1083FB009423222F33D9 /* Pods-AVFonts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFonts_Example-umbrella.h"; sourceTree = "<group>"; };
+		B087092C4B9A5C20AB51290CF8FA68DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38DDAD3CCEA906E91BA5A757155BDF9 /* AVFonts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVFonts.xcconfig; sourceTree = "<group>"; };
+		B69D4428065FD2DE9CF06FB6ACB2BA16 /* Pods-AVFonts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFonts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB4B4BC4F5165FBA70632C4F60DFCFBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C509960024C428C8D84D7BAC67C9ED75 /* Pods-AVFonts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFonts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D361383F55C514A006D2733DA07C7535 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E91E877FF1B261F95CECF324010925 /* Pods-AVFonts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D8E919288302A976E360A6A1D46DCB2F /* Pods_AVFonts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AVFonts_Example.framework; path = "Pods-AVFonts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF200B672B43E3B41AE2271AA817C3D7 /* Pods_AVFonts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AVFonts_Tests.framework; path = "Pods-AVFonts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A8E47BF49CFE7B587C3AC59A37563C /* AVFonts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AVFonts.modulemap; sourceTree = "<group>"; };
+		E77061658ED847B04943CFDE5A8EEBF5 /* Pods-AVFonts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFonts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F285FA6C87A937F6A213B8E2716F67B1 /* Pods-AVFonts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFonts_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF6D05ECA798557E3AF3929062606693 /* Pods-AVFonts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B53EB7518E20A0BA8638CEB2F7E25F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF715C7A11EA48E332C13EA959D1FA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DDB0BE5F8A8EE66A88CADE3B6667C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF2FAC46F4EDDF38E3D72AE63D59B75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3192BD0BF848B0CA237DE8ADA429B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A635C4202355602D5CFF012B5CB405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAF50E9A422F8931ECB1BEA3A44188A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E1A5C90AC1B41360335047509C55D15 /* AVFonts */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2AB7A8DCC88ED9CB28C49B65587DBC33 /* Pods-AVFonts_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D361383F55C514A006D2733DA07C7535 /* Info.plist */,
+				51B9E8C01C5F3B7A1473F39B0DAA9163 /* Pods-AVFonts_Example.modulemap */,
+				E77061658ED847B04943CFDE5A8EEBF5 /* Pods-AVFonts_Example-acknowledgements.markdown */,
+				C509960024C428C8D84D7BAC67C9ED75 /* Pods-AVFonts_Example-acknowledgements.plist */,
+				90BBBA3EBCDD057D246A3A6ECDEBC7B9 /* Pods-AVFonts_Example-dummy.m */,
+				9A44EC41B49007313EC76CBB627B907F /* Pods-AVFonts_Example-frameworks.sh */,
+				197FF9ADD27489E3685F54F91BDA4518 /* Pods-AVFonts_Example-resources.sh */,
+				AF612CDE4A1D1083FB009423222F33D9 /* Pods-AVFonts_Example-umbrella.h */,
+				5C3B3B8E1D378894DD0562EEABA45445 /* Pods-AVFonts_Example.debug.xcconfig */,
+				630677D4A3197B152DAD4BBD543C8649 /* Pods-AVFonts_Example.release.xcconfig */,
+			);
+			name = "Pods-AVFonts_Example";
+			path = "Target Support Files/Pods-AVFonts_Example";
+			sourceTree = "<group>";
+		};
+		6B5026408A0E20316BBB44E7521F37E7 /* AVFonts */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC3E4AC60EE94BB54341ACB17E2B62 /* Classes */,
+			);
+			name = AVFonts;
+			path = AVFonts;
+			sourceTree = "<group>";
+		};
+		6FF6F8868CC9F77A3052FBDA38198DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29949A78FF633CAA97E2F7890BA3B956 /* AVFonts.framework */,
+				D8E919288302A976E360A6A1D46DCB2F /* Pods_AVFonts_Example.framework */,
+				DF200B672B43E3B41AE2271AA817C3D7 /* Pods_AVFonts_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1FAF50E9A422F8931ECB1BEA3A44188A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6FF6F8868CC9F77A3052FBDA38198DC0 /* Products */,
+				DD2D1FD1F8757EAAAA7F719BCB1A2384 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1A5C90AC1B41360335047509C55D15 /* AVFonts */ = {
+			isa = PBXGroup;
+			children = (
+				6B5026408A0E20316BBB44E7521F37E7 /* AVFonts */,
+				D27BD992375A5148753EE06D059B52A8 /* Support Files */,
+			);
+			name = AVFonts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B9F18138E39D45AFB7A01111726FB842 /* Pods-AVFonts_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B087092C4B9A5C20AB51290CF8FA68DF /* Info.plist */,
+				5F3F2E61D25A82EF854CE326236A2CC6 /* Pods-AVFonts_Tests.modulemap */,
+				ABDB1F0CEE15D50ACA3140BBFB81F46B /* Pods-AVFonts_Tests-acknowledgements.markdown */,
+				B69D4428065FD2DE9CF06FB6ACB2BA16 /* Pods-AVFonts_Tests-acknowledgements.plist */,
+				9C5E618E9C9820B135827932E9BEBD53 /* Pods-AVFonts_Tests-dummy.m */,
+				FF6D05ECA798557E3AF3929062606693 /* Pods-AVFonts_Tests-frameworks.sh */,
+				68DE8DCCD115D8CABAA0666948E6C911 /* Pods-AVFonts_Tests-resources.sh */,
+				F285FA6C87A937F6A213B8E2716F67B1 /* Pods-AVFonts_Tests-umbrella.h */,
+				9B2D21B181961991CFCD56EA7F79FE8D /* Pods-AVFonts_Tests.debug.xcconfig */,
+				D7E91E877FF1B261F95CECF324010925 /* Pods-AVFonts_Tests.release.xcconfig */,
+			);
+			name = "Pods-AVFonts_Tests";
+			path = "Target Support Files/Pods-AVFonts_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27BD992375A5148753EE06D059B52A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8E47BF49CFE7B587C3AC59A37563C /* AVFonts.modulemap */,
+				B38DDAD3CCEA906E91BA5A757155BDF9 /* AVFonts.xcconfig */,
+				18A4F53D5B4830E86A77E609F641DEB8 /* AVFonts-dummy.m */,
+				9EA18A39CEEF3E36F011ECEBF887960C /* AVFonts-prefix.pch */,
+				93BCAED155475654732F91BEEC727A43 /* AVFonts-umbrella.h */,
+				BB4B4BC4F5165FBA70632C4F60DFCFBD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AVFonts";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBBC3E4AC60EE94BB54341ACB17E2B62 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF28623E44208D9CFA97DB6442C116 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DD2D1FD1F8757EAAAA7F719BCB1A2384 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7A8DCC88ED9CB28C49B65587DBC33 /* Pods-AVFonts_Example */,
+				B9F18138E39D45AFB7A01111726FB842 /* Pods-AVFonts_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F5A7BF8E366799C6D3F0C2E4257B835 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46A173A1D02737B80A1C794E3000C00 /* AVFonts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E3840034ECB985FE5D80AA48FF69F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33C7A25517E72E50B383ADAB23A4787 /* Pods-AVFonts_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F9BD4A463B1D1E69815C9EFEB5714D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03956F8284F6265A54E82A257A91B444 /* Pods-AVFonts_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D22B26382BEFC61257BC7226D579C8F /* Pods-AVFonts_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C74F5156B4872E67EC45EBBA612A57B /* Build configuration list for PBXNativeTarget "Pods-AVFonts_Example" */;
+			buildPhases = (
+				4A561B42B3C028A8E2931FD2082F9390 /* Sources */,
+				4B53EB7518E20A0BA8638CEB2F7E25F7 /* Frameworks */,
+				79F9BD4A463B1D1E69815C9EFEB5714D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0172743D99D6DAAE0168B54689623A6D /* PBXTargetDependency */,
+			);
+			name = "Pods-AVFonts_Example";
+			productName = "Pods-AVFonts_Example";
+			productReference = D8E919288302A976E360A6A1D46DCB2F /* Pods_AVFonts_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7D7FC366F5C46CF20FF70CDD98916F4 /* Pods-AVFonts_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AF3365B7FFC9C888EB40903EFB86C3 /* Build configuration list for PBXNativeTarget "Pods-AVFonts_Tests" */;
+			buildPhases = (
+				F2E7C2E60E356D19DF516F8C281D1D3B /* Sources */,
+				78DDB0BE5F8A8EE66A88CADE3B6667C6 /* Frameworks */,
+				75E3840034ECB985FE5D80AA48FF69F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AVFonts_Tests";
+			productName = "Pods-AVFonts_Tests";
+			productReference = DF200B672B43E3B41AE2271AA817C3D7 /* Pods_AVFonts_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8EEE0E12B83B53A79298EF7CF78E888 /* AVFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485E16FF685BF4AC77A0A2CBA1A44FFA /* Build configuration list for PBXNativeTarget "AVFonts" */;
+			buildPhases = (
+				AAACBC6D0858D0BF373F3B8251560975 /* Sources */,
+				D3192BD0BF848B0CA237DE8ADA429B4C /* Frameworks */,
+				2F5A7BF8E366799C6D3F0C2E4257B835 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFonts;
+			productName = AVFonts;
+			productReference = 29949A78FF633CAA97E2F7890BA3B956 /* AVFonts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6FF6F8868CC9F77A3052FBDA38198DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EEE0E12B83B53A79298EF7CF78E888 /* AVFonts */,
+				1D22B26382BEFC61257BC7226D579C8F /* Pods-AVFonts_Example */,
+				B7D7FC366F5C46CF20FF70CDD98916F4 /* Pods-AVFonts_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A561B42B3C028A8E2931FD2082F9390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F12C9AAD1FBC077A4704A24387DD4E /* Pods-AVFonts_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAACBC6D0858D0BF373F3B8251560975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38F3E77B874D95A5D8C21F3FE64BBB8 /* AVFonts-dummy.m in Sources */,
+				E08099DFE8F6F9396FF6592E78D63C97 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E7C2E60E356D19DF516F8C281D1D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D2776BBDCD5ADB91F64B4D555C249 /* Pods-AVFonts_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0172743D99D6DAAE0168B54689623A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AVFonts;
+			target = F8EEE0E12B83B53A79298EF7CF78E888 /* AVFonts */;
+			targetProxy = EEEDC9E5804E1482CCBF6810F024B4DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		098127D9AFDD6274E78408BF69E9D515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38DDAD3CCEA906E91BA5A757155BDF9 /* AVFonts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AVFonts/AVFonts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AVFonts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AVFonts/AVFonts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AVFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29AC3E6A0ED7653B9B134431DFAC98B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2D21B181961991CFCD56EA7F79FE8D /* Pods-AVFonts_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFonts_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFonts_Tests/Pods-AVFonts_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVFonts_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B4FF19BC9BAF2F72691E12DA1D75A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630677D4A3197B152DAD4BBD543C8649 /* Pods-AVFonts_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFonts_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFonts_Example/Pods-AVFonts_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVFonts_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933CE98281FA9FDEC371018A4D44D10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E91E877FF1B261F95CECF324010925 /* Pods-AVFonts_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFonts_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFonts_Tests/Pods-AVFonts_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVFonts_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C75AFC13FDAD37352825982F9E548DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38DDAD3CCEA906E91BA5A757155BDF9 /* AVFonts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AVFonts/AVFonts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AVFonts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AVFonts/AVFonts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AVFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C790201978D73060715D163B3856B061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3B3B8E1D378894DD0562EEABA45445 /* Pods-AVFonts_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFonts_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFonts_Example/Pods-AVFonts_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVFonts_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AF3365B7FFC9C888EB40903EFB86C3 /* Build configuration list for PBXNativeTarget "Pods-AVFonts_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC3E6A0ED7653B9B134431DFAC98B8 /* Debug */,
+				933CE98281FA9FDEC371018A4D44D10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485E16FF685BF4AC77A0A2CBA1A44FFA /* Build configuration list for PBXNativeTarget "AVFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75AFC13FDAD37352825982F9E548DDC /* Debug */,
+				098127D9AFDD6274E78408BF69E9D515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C74F5156B4872E67EC45EBBA612A57B /* Build configuration list for PBXNativeTarget "Pods-AVFonts_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C790201978D73060715D163B3856B061 /* Debug */,
+				2B4FF19BC9BAF2F72691E12DA1D75A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

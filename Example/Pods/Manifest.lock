@@ -1,0 +1,16 @@
+PODS:
+  - AVFonts (0.1.0)
+
+DEPENDENCIES:
+  - AVFonts (from `../`)
+
+EXTERNAL SOURCES:
+  AVFonts:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AVFonts: 2fd63db7f7269e3c2b498fc1c89a0b9856241dd0
+
+PODFILE CHECKSUM: 959317817d8b45df181b1ef7c684ed501891677c
+
+COCOAPODS: 1.2.1
