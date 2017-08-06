@@ -16,30 +16,31 @@ AVFonts is for swaping the font you are using with the new font throughout the a
 
 ### Usage
 
-1. import AVFonts to appDelegate
-2. In didFinishLaunchingwithOptions change the font :
+**1.** import AVFonts to appDelegate
+**2.** In didFinishLaunchingwithOptions change the font :
 
-a)This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app.
+**a)**This will change font from **currentFontName** to **newFontName**  throughout the app.
 ```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy")
 ```
 
-b)  This will change font from "Avenir-Light" to "Avenir-Heavy" for only buttons and labels  throughout the app.
+**b)**  This will change font from "currentFontName" to "newFontName" for **types provided** ie[ .button,.label,.textField,.textView]  throughout the app.
 
 ```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label])
 ```
-c)  This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size increment of 2 to your orignal font size.
+**c)**  This will change font from "currentFontName" to "newFontName" for  types provided ie[ .button,.label,.textField,.textView]  throughout the app with the **font size increment**  to your orignal font size.
 
 ```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: 2)
 ```
 
-d) This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size decrement of 2 to your orignal font size.
+**d)** This will change font from "currentFontName" to "newFontName" for types provided ie[ .button,.label,.textField,.textView]  throughout the app with the **font size decrement** to your orignal font size.
 
 ```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield,.textview], increament: -2)
 ```
+**3.** Call **AVFonts.applyAVFonts()** after doing all the changes.
 
 ###  Example
 
