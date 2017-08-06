@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9E2CCD38F2FB1E6F831035C7 /* Pods-AVFonts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFonts_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVFonts_Tests/Pods-AVFonts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A529AF3B13B2E5B10F3952B8 /* Pods-AVFonts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFonts_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVFonts_Example/Pods-AVFonts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B08B2186AF8D1EE385FBB54E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B631C142CE4ACC6FD1D5E9FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D6EA5C8531FB8B95919751BC /* AVFonts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AVFonts.podspec; path = ../AVFonts.podspec; sourceTree = "<group>"; };
+		B08B2186AF8D1EE385FBB54E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B631C142CE4ACC6FD1D5E9FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6EA5C8531FB8B95919751BC /* AVFonts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AVFonts.podspec; path = ../AVFonts.podspec; sourceTree = "<group>"; };
 		E9FCA4E84FB835D2C49CDBDF /* Pods_AVFonts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFonts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -497,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
