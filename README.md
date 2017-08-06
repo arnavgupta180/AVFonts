@@ -5,9 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AVFonts.svg?style=flat)](http://cocoapods.org/pods/AVFonts)
 [![Platform](https://img.shields.io/cocoapods/p/AVFonts.svg?style=flat)](http://cocoapods.org/pods/AVFonts)
 
-## Example
 
-## What it do
+### What it do
 
 AVFonts is for doing anything you want to do with fonts throuhout app.
 
@@ -21,21 +20,28 @@ AVFonts is for swaping the font you are using with the new font throughout the a
 2. In didFinishLaunchingwithOptions change the font :
 
 a)This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app.
-
+```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy")
+```
 
 b)  This will change font from "Avenir-Light" to "Avenir-Heavy" for only buttons and labels  throughout the app.
 
+```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label])
-
+```
 c)  This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size increment of 2 to your orignal font size.
 
+```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: 2)
+```
 
 d) This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size decrement of 2 to your orignal font size.
 
+```bash
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield,.textview], increament: -2)
+```
 
+###  Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
