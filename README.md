@@ -7,13 +7,16 @@
 
 ## Example
 
-##What it do
+## What it do
+
 AVFonts is for doing anything you want to do with fonts throuhout app.
 
-###Why should you use this ?
+### Why should you use this ?
+
 AVFonts is for swaping the font you are using with the new font throughout the app.You can increment or decrement your fontsize as per your reqiurements otherwise it will take the fontsize you are using for your old font.i.e Now no need to select custom font from storyboard.Just give its size from there and then change "system font"  to your "new font" will surely save some time  or if you have to change font throughout the app then you can just do it with a single line of code as shown in usage.
 
-###Usage
+### Usage
+
 1. import AVFonts to appDelegate
 2. In didFinishLaunchingwithOptions change the font :
 
@@ -21,16 +24,15 @@ a)This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the ap
 
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy")
 
-
-b)  a)This will change font from "Avenir-Light" to "Avenir-Heavy" for only buttons and labels  throughout the app.
+b)  This will change font from "Avenir-Light" to "Avenir-Heavy" for only buttons and labels  throughout the app.
 
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label])
 
-c) a)This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size increment of 2 to your orignal font size.
+c)  This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size increment of 2 to your orignal font size.
 
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: 2)
 
-d)c) a)This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size decrement of 2 to your orignal font size.
+d) This will change font from "Avenir-Light" to "Avenir-Heavy"  throughout the app with the font size decrement of 2 to your orignal font size.
 
 AVFonts.changeFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield,.textview], increament: -2)
 
