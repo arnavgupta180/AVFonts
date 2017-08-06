@@ -14,7 +14,23 @@ extension UITextField{
     
     public func customFontLayoutSubviews(){
         self.customFontLayoutSubviews()
-        
+      
+        if(AVFonts.changeFontThroughOut.characters.count  > 1){
+            if(self.font?.fontName != AVFonts.changeFontThroughOut){
+                if(AVFonts.changeFontThroughOutTypes.contains(.textfield)){
+                    
+                    self.font = UIFont(name: AVFonts.changeFontThroughOut, size: (self.font?.pointSize)! + AVFonts.changeFontThroughOutIncremnt)
+                    
+                }
+                else{
+                    
+                }
+            }
+            else{
+                
+            }
+        }
+        else
         if  (AVFonts.attributeFonttf[(self.font?.fontName) ?? ""] != nil) {
             if (AVFonts.attributeFontSizetf[(self.font?.fontName) ?? ""] != nil){
                 

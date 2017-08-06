@@ -38,17 +38,17 @@
 		18A4F53D5B4830E86A77E609F641DEB8 /* AVFonts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVFonts-dummy.m"; sourceTree = "<group>"; };
 		197FF9ADD27489E3685F54F91BDA4518 /* Pods-AVFonts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Example-resources.sh"; sourceTree = "<group>"; };
 		1E56B11344F4A0554056EB33C9D980A1 /* AVTextfieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVTextfieldExtension.swift; sourceTree = "<group>"; };
-		29949A78FF633CAA97E2F7890BA3B956 /* AVFonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AVFonts.framework; path = AVFonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29949A78FF633CAA97E2F7890BA3B956 /* AVFonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVFonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCD07533F5CF6C3CCB71546E5260B9C /* AVButtonExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVButtonExtension.swift; sourceTree = "<group>"; };
-		51B9E8C01C5F3B7A1473F39B0DAA9163 /* Pods-AVFonts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AVFonts_Example.modulemap"; sourceTree = "<group>"; };
+		51B9E8C01C5F3B7A1473F39B0DAA9163 /* Pods-AVFonts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AVFonts_Example.modulemap"; sourceTree = "<group>"; };
 		5C3B3B8E1D378894DD0562EEABA45445 /* Pods-AVFonts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5F3F2E61D25A82EF854CE326236A2CC6 /* Pods-AVFonts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AVFonts_Tests.modulemap"; sourceTree = "<group>"; };
+		5F3F2E61D25A82EF854CE326236A2CC6 /* Pods-AVFonts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AVFonts_Tests.modulemap"; sourceTree = "<group>"; };
 		630677D4A3197B152DAD4BBD543C8649 /* Pods-AVFonts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68DE8DCCD115D8CABAA0666948E6C911 /* Pods-AVFonts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Tests-resources.sh"; sourceTree = "<group>"; };
 		826AA0BD6B1ABE7AAB7D8DC2C51F55DB /* AVTextViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVTextViewExtension.swift; sourceTree = "<group>"; };
 		90BBBA3EBCDD057D246A3A6ECDEBC7B9 /* Pods-AVFonts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFonts_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BCAED155475654732F91BEEC727A43 /* AVFonts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVFonts-umbrella.h"; sourceTree = "<group>"; };
 		9A44EC41B49007313EC76CBB627B907F /* Pods-AVFonts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9B2D21B181961991CFCD56EA7F79FE8D /* Pods-AVFonts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,9 +66,9 @@
 		D361383F55C514A006D2733DA07C7535 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60DA04171DBE1C7BF4C769B21BD421C /* AVFonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVFonts.swift; sourceTree = "<group>"; };
 		D7E91E877FF1B261F95CECF324010925 /* Pods-AVFonts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFonts_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8E919288302A976E360A6A1D46DCB2F /* Pods_AVFonts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AVFonts_Example.framework; path = "Pods-AVFonts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF200B672B43E3B41AE2271AA817C3D7 /* Pods_AVFonts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AVFonts_Tests.framework; path = "Pods-AVFonts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0A8E47BF49CFE7B587C3AC59A37563C /* AVFonts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AVFonts.modulemap; sourceTree = "<group>"; };
+		D8E919288302A976E360A6A1D46DCB2F /* Pods_AVFonts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFonts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF200B672B43E3B41AE2271AA817C3D7 /* Pods_AVFonts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFonts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A8E47BF49CFE7B587C3AC59A37563C /* AVFonts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AVFonts.modulemap; sourceTree = "<group>"; };
 		E77061658ED847B04943CFDE5A8EEBF5 /* Pods-AVFonts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFonts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F285FA6C87A937F6A213B8E2716F67B1 /* Pods-AVFonts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFonts_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FF6D05ECA798557E3AF3929062606693 /* Pods-AVFonts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFonts_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 			children = (
 				983F2FB4BC72751EFC8C1D686C8812E7 /* Classes */,
 			);
-			name = AVFonts;
 			path = AVFonts;
 			sourceTree = "<group>";
 		};
@@ -171,14 +170,13 @@
 		983F2FB4BC72751EFC8C1D686C8812E7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4DCD07533F5CF6C3CCB71546E5260B9C /* AVButtonExtension.swift */,
 				D60DA04171DBE1C7BF4C769B21BD421C /* AVFonts.swift */,
+				4DCD07533F5CF6C3CCB71546E5260B9C /* AVButtonExtension.swift */,
 				9F43516C40DA0C909803EB1DB18E5623 /* AVLabelExtension.swift */,
 				1E56B11344F4A0554056EB33C9D980A1 /* AVTextfieldExtension.swift */,
 				826AA0BD6B1ABE7AAB7D8DC2C51F55DB /* AVTextViewExtension.swift */,
 				A6A755EC9B1E0F1031BEE15719598741 /* MethodSwizzler.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};

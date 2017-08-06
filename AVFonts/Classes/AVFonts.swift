@@ -29,17 +29,55 @@ public class AVFonts : NSObject {
     static var  attributeFontSizeBtn = [String:CGFloat]()
     static var  attributeFontSizetf = [String:CGFloat]()
     static var  attributeFontSizetv = [String:CGFloat]()
+    static var changeFontThroughOut : String = ""
+    static var changeFontThroughOutIncremnt : CGFloat = 0.0
+    static var changeFontThroughOutTypes :[AVFontsView] = []
+    static var checkFont:Bool = false
 
-  public  class func changeFont(currentFont : String , toFont : String){
+}
 
+//MARK:-
+//MARK:- Change Fonts
+extension AVFonts{
+    
+    public class func changeFont(toFont:String){
+        changeFontThroughOut = toFont
+        changeFontThroughOutTypes = [.button,.label,.textfield,.textview]
+    }
+    
+    public class func changeFont(toFont:String ,_ types: [AVFontsView]){
+        
+        changeFontThroughOut = toFont
+        changeFontThroughOutTypes = types
+    }
+    
+    public class func changeFont(toFont:String ,increment : CGFloat){
+        changeFontThroughOut = toFont
+        changeFontThroughOutTypes = [.button,.label,.textfield,.textview]
+        changeFontThroughOutIncremnt  = increment
+    }
+    
+    public class func changeFont(toFont:String ,_ types: [AVFontsView],increment : CGFloat){
+        
+        changeFontThroughOut = toFont
+        changeFontThroughOutIncremnt  = increment
+        changeFontThroughOutTypes = types
+    }
+}
+
+//MARK:-
+//MARK:- Swap Fonts
+extension AVFonts{
+    public  class func swapFont(currentFont : String , toFont : String){
+        
         if currentFont == toFont {
             return
         }
         
-        AVFonts.changeFont(currentFont: currentFont, toFont:toFont,[.button,.label,.textfield,.textview])
+        AVFonts.swapFont(currentFont: currentFont, toFont:toFont,[.button,.label,.textfield,.textview])
     }
     
- public  class func changeFont( currentFont : String , toFont : String,_ types : [AVFontsView]){
+    public  class func swapFont( currentFont : String , toFont : String,_ types : [AVFontsView]){
         
         if currentFont == toFont {
             return
@@ -60,27 +98,27 @@ public class AVFonts : NSObject {
             case .textview:
                 self.attributeFonttv[currentFont] = toFont
                 break
-       
+                
             }
         }
     }
     
-  public  class func changeFont(currentFont :  String , toFont : String , increament : CGFloat){
+    public  class func swapFont(currentFont :  String , toFont : String , increment : CGFloat){
         
         if currentFont == toFont {
             return
         }
         
-        attributeFontSizeLabel[currentFont] = increament
-        attributeFontSizetf[currentFont] = increament
-        attributeFontSizeBtn[currentFont] = increament
-        attributeFontSizetv[currentFont] = increament
-
-        AVFonts.changeFont(currentFont: currentFont, toFont:toFont,[.button,.label,.textfield,.textview])
+        attributeFontSizeLabel[currentFont] = increment
+        attributeFontSizetf[currentFont] = increment
+        attributeFontSizeBtn[currentFont] = increment
+        attributeFontSizetv[currentFont] = increment
+        
+        AVFonts.swapFont(currentFont: currentFont, toFont:toFont,[.button,.label,.textfield,.textview])
     }
     
-  public  class func changeFont(currentFont :  String , toFont : String ,_ types : [AVFontsView], increament : CGFloat){
-      
+    public  class func swapFont(currentFont :  String , toFont : String ,_ types : [AVFontsView], increment : CGFloat){
+        
         if currentFont == toFont {
             return
         }
@@ -88,27 +126,30 @@ public class AVFonts : NSObject {
         for type in types {
             
             switch type {
-            case .label: attributeFontSizeLabel[currentFont] = increament
-            case .button:attributeFontSizeBtn[currentFont] = increament
-            case .textfield:attributeFontSizetf[currentFont] = increament
-            case .textview:attributeFontSizetv[currentFont] = increament
+            case .label: attributeFontSizeLabel[currentFont] = increment
+            case .button:attributeFontSizeBtn[currentFont] = increment
+            case .textfield:attributeFontSizetf[currentFont] = increment
+            case .textview:attributeFontSizetv[currentFont] = increment
             }
         }
         
-        AVFonts.changeFont(currentFont: currentFont, toFont:toFont,types)
-    }
-
-  public  class func applyAVFonts(){
-        
-        MethodSwizzleGivenClassName(cls: UILabel.self, originalSelector: #selector(UILabel.layoutSubviews), overrideSelector: #selector(UILabel.customFontLayoutSubviews))
-
-           MethodSwizzleGivenClassName(cls: UITextView.self, originalSelector: #selector(UITextView.layoutSubviews), overrideSelector: #selector(UITextView.customFontLayoutSubviews))
-          MethodSwizzleGivenClassName(cls: UITextField.self, originalSelector: #selector(UITextField.layoutSubviews), overrideSelector: #selector(UITextField.customFontLayoutSubviews))
-                       MethodSwizzleGivenClassName(cls: UIButton.self, originalSelector: #selector(UIButton.layoutSubviews), overrideSelector: #selector(UIButton.customFontLayoutSubviews))
+        AVFonts.swapFont(currentFont: currentFont, toFont:toFont,types)
     }
 }
 
-
+//MARK:-
+//MARK:- Apply Fonts
+extension AVFonts{
+    
+    public  class func applyAVFonts(){
+        
+        MethodSwizzleGivenClassName(cls: UILabel.self, originalSelector: #selector(UILabel.layoutSubviews), overrideSelector: #selector(UILabel.customFontLayoutSubviews))
+        
+        MethodSwizzleGivenClassName(cls: UITextView.self, originalSelector: #selector(UITextView.layoutSubviews), overrideSelector: #selector(UITextView.customFontLayoutSubviews))
+        MethodSwizzleGivenClassName(cls: UITextField.self, originalSelector: #selector(UITextField.layoutSubviews), overrideSelector: #selector(UITextField.customFontLayoutSubviews))
+        MethodSwizzleGivenClassName(cls: UIButton.self, originalSelector: #selector(UIButton.layoutSubviews), overrideSelector: #selector(UIButton.customFontLayoutSubviews))
+    }
+}
 
 
 

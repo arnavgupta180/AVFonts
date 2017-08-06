@@ -12,9 +12,32 @@ import UIKit
 
 extension UILabel{
     
+    
     public func customFontLayoutSubviews(){
         self.customFontLayoutSubviews()
-        
+     
+        if(AVFonts.checkFont == false){
+        if(AVFonts.changeFontThroughOut.characters.count  > 1){
+       
+            if(self.font.fontName != AVFonts.changeFontThroughOut){
+                if(AVFonts.changeFontThroughOutTypes.contains(.label)){
+                    
+                    let font = self.font.fontName
+                    self.font = UIFont(name: AVFonts.changeFontThroughOut, size: self.font.pointSize + AVFonts.changeFontThroughOutIncremnt)
+                    
+                    if(font == self.font.fontName){
+                        AVFonts.checkFont = true
+                    }
+                }
+                else{
+                    
+                }
+            }
+            else{
+                
+            }
+        }
+        else
             if  (AVFonts.attributeFontLbl[self.font.fontName] != nil) {
                 if (AVFonts.attributeFontSizeLabel[self.font.fontName] != nil){
                   
@@ -26,6 +49,11 @@ extension UILabel{
                 self.font = UIFont(name: AVFonts.attributeFontLbl[self.font.fontName]!, size: self.font.pointSize)
                 }
                 
+        }
+        }else{
+            
+            print("You entered an invalid Font Name .Please check your font name")
+            
         }
     }
  
