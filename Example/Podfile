@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AVFonts_Example' do
+  pod 'AVFonts', :path => '../'
+
+  target 'AVFonts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
