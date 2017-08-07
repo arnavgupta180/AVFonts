@@ -15,7 +15,7 @@ AVFonts is for doing anything you want to do with fonts throuhout app.
 AVFonts is for swaping/changing  the font you are using with the new font throughout the app.You can increment or decrement your fontsize as per your reqiurements otherwise it will take the fontsize you are using for your old font.i.e Now no need to select custom font from storyboard.Just give its size from there and then change "system font"  to your "new font" will surely save some time  or if you have to change font throughout the app then you can just do it with a single line of code as shown in usage.
 
 
-![](AVFonts.gif?raw=true "AVFonts screenshot")    ![](AVFonts2.gif?raw=true "AVFonts  italic screenshot")
+![](AVFonts.gif?raw=true "AVFonts screenshot")                            ![](AVFonts2.gif?raw=true "AVFonts  italic screenshot")
 
 ### Usage
 
