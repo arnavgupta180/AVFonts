@@ -9,23 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    
+//MARK:- IBOutlets
+    @IBOutlet weak var tfName: UITextField!
+    
+    @IBOutlet weak var tfEmail: UITextField!
+    
+    @IBOutlet weak var tfPassword: UITextField!
    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBOutlet weak var btnLogin: UIButton!
 
+    
 }
 
 //MARK:-
 //MARK:- VC LifeCycle  functions
 extension ViewController{
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -48,4 +52,8 @@ extension ViewController{
         super.viewDidDisappear(true)
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }

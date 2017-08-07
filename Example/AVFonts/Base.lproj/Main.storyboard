@@ -100,6 +100,12 @@
                             <constraint firstItem="CtE-NN-2wp" firstAttribute="leading" secondItem="GTv-u9-D9k" secondAttribute="leading" constant="24" id="vBa-ml-R1j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnLogin" destination="yg9-up-bNC" id="YNb-mf-oxL"/>
+                        <outlet property="tfEmail" destination="LkT-IV-Gsf" id="gjR-6Q-ZMy"/>
+                        <outlet property="tfName" destination="N9G-EJ-Z4Z" id="ZAK-dJ-vnY"/>
+                        <outlet property="tfPassword" destination="CtE-NN-2wp" id="hpH-Qg-a0k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aFA-bC-UPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
