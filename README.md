@@ -6,45 +6,44 @@
 [![Platform](https://img.shields.io/cocoapods/p/AVFonts.svg?style=flat)](http://cocoapods.org/pods/AVFonts)
 
 
-### What it do
+### What's that for
 
-AVFonts is for doing anything you want to do with fonts throuhout app.
+AVFonts allows you to do anything you want to do with the fonts anywhere and everywhere in the app.
 
-### Why should you use this ?
+### Why should you use this?
 
-AVFonts is for swaping/changing  the font you are using with the new font throughout the app.You can increment or decrement your fontsize as per your reqiurements otherwise it will take the fontsize you are using for your old font.i.e Now no need to select custom font from storyboard.Just give its size from there and then change "system font"  to your "new font" will surely save some time  or if you have to change font throughout the app then you can just do it with a single line of code as shown in usage.
-
+AVFonts can easily swap the system font or specific font you are using with the new font throughout the app. You can increment or decrement font size if needed, too. Now there's no need to select custom fonts in the Interface Builder. Save time by simply configuring its size and style, and then change "system font" to your "new font" everywhere with a single line of code. It's that easy.
 
 ![](AVFonts.gif?raw=true "AVFonts screenshot")                            ![](AVFonts2.gif?raw=true "AVFonts  italic screenshot")
 
 ### Usage
 
-**1.** import AVFonts to appDelegate.
+**1.** import `AVFonts` to `AppDelegate`.
 
-**2.** In didFinishLaunchingwithOptions change the font :
+**2.** In `didFinishLaunchingwithOptions` change the font :
 
-**a)** This will swap/change font from **currentFontName** to **newFontName**  throughout the app.
+**a)** This will swap/change font from system or **currentFontName** to **newFontName** everywhere in the app.
 ```bash
-AVFonts.changeFont( toFont: "Avenir-Heavy")
+AVFonts.changeFont(toFont: "Avenir-Heavy")
 AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy")
 ```
-**b)**  Font swap/change for  **types provided** ie[ .button,.label,.textField,.textView]  throughout the app.
+**b)** Font swap/change for **types provided** i.e. [ .button, .label, .textField, .textView] throughout the app.
 
 ```bash
-AVFonts.changeFont( toFont: "Avenir-Heavy", [.button,.label])
-AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label])
+AVFonts.changeFont(toFont: "Avenir-Heavy", [.button, .label])
+AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button, .label])
 ```
-**c)**  **font size increment/decrement**  to your orignal font size.
+**c)** **increment/decrement** your orignal font size.
 
 ```bash
-AVFonts.changeFont(toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: 2)
-AVFonts.changeFont(toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: -2)
+AVFonts.changeFont(toFont: "Avenir-Heavy", [.button,.label,.textfield], increment: 2)
+AVFonts.changeFont(toFont: "Avenir-Heavy", [.button,.label,.textfield], increment: -2)
 
-AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield], increament: 2)
-AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button,.label,.textfield,.textview], increament: -2)
+AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button, .label, .textfield], increment: 2)
+AVFonts.swapFont(currentFont: "Avenir-Light", toFont: "Avenir-Heavy", [.button, .label, .textfield, .textview], increment: -2)
 
 ```
-**3.** Call **AVFonts.applyAVFonts()** after doing all the changes.
+**3.** Call **AVFonts.applyAVFonts()** to apply all the changes.
 
 ###  Example
 
@@ -81,7 +80,7 @@ pod "AVFonts"
 end
 ```
 
-Then, run the following command:
+Then run the following command:
 
 ```bash
 $ pod install
