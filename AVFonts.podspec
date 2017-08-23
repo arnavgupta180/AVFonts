@@ -29,15 +29,15 @@ s.name             = 'AVFonts'
   s.author           = { 'Arnav' => 'arnavgupta180@gmail.com' }
   s.source           = { :git => 'https://github.com/codegeeker180/AVFonts.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AVFonts/Classes/**/*'
-  
+s.source_files  = 'Classes/*.{swift}'
+
   # s.resource_bundles = {
   #   'AVFonts' => ['AVFonts/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
 end
