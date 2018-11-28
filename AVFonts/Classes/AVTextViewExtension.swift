@@ -10,37 +10,27 @@
 import Foundation
 import UIKit
 
-
-extension UITextView{
+extension UITextView {
     
-    public func customFontLayoutSubviews(){
+    public func customFontLayoutSubviews() {
+
         self.customFontLayoutSubviews()
-   
         
-        if(AVFonts.changeFontThroughOut.characters.count  > 1){
-            if(self.font?.fontName != AVFonts.changeFontThroughOut){
-                if(AVFonts.changeFontThroughOutTypes.contains(.textview)){
+        if AVFonts.changeFontThroughOut.count > 1 {
+            if self.font?.fontName != AVFonts.changeFontThroughOut {
+                if AVFonts.changeFontThroughOutTypes.contains(.textview) {
                     
                     self.font = UIFont(name: AVFonts.changeFontThroughOut, size: (self.font?.pointSize)! + AVFonts.changeFontThroughOutIncremnt)
-                    
-                }
-                else{
-                    
                 }
             }
-            else{
-            }
-        }
-        else
-        if  (AVFonts.attributeFonttv[self.font?.fontName ?? ""] != nil) {
-            if (AVFonts.attributeFontSizetv[self.font?.fontName ?? ""] != nil){
+        } else if AVFonts.attributeFonttv[self.font?.fontName ?? ""] != nil {
+            if AVFonts.attributeFontSizetv[self.font?.fontName ?? ""] != nil {
                 
                 let fontSize = (self.font?.pointSize ?? 0) + AVFonts.attributeFontSizetv[self.font?.fontName ?? ""]!
                 self.font = UIFont(name: AVFonts.attributeFonttv[self.font?.fontName ?? ""]!, size: fontSize)
-            }
-            else{
+            } else {
                 self.font = UIFont(name: AVFonts.attributeFonttv[self.font?.fontName ?? ""]!, size: (self.font?.pointSize ?? 0))
             }
         }
-           }
+    }
 }

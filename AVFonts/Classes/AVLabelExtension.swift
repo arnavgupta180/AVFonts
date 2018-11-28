@@ -10,51 +10,37 @@
 import Foundation
 import UIKit
 
-extension UILabel{
-    
-    
-    public func customFontLayoutSubviews(){
+extension UILabel {
+
+    public func customFontLayoutSubviews() {
         self.customFontLayoutSubviews()
      
-        if(AVFonts.checkFont == false){
-        if(AVFonts.changeFontThroughOut.characters.count  > 1){
-       
-            if(self.font.fontName != AVFonts.changeFontThroughOut){
-                if(AVFonts.changeFontThroughOutTypes.contains(.label)){
-                    
-                    let font = self.font.fontName
-                    self.font = UIFont(name: AVFonts.changeFontThroughOut, size: self.font.pointSize + AVFonts.changeFontThroughOutIncremnt)
-                    
-                    if(font == self.font.fontName){
-                        AVFonts.checkFont = true
+        if AVFonts.checkFont == false {
+
+            if AVFonts.changeFontThroughOut.count > 1 {
+
+                if self.font.fontName != AVFonts.changeFontThroughOut {
+                    if AVFonts.changeFontThroughOutTypes.contains(.label) {
+
+                        let font = self.font.fontName
+                        self.font = UIFont(name: AVFonts.changeFontThroughOut, size: self.font.pointSize + AVFonts.changeFontThroughOutIncremnt)
+
+                        if(font == self.font.fontName){
+                            AVFonts.checkFont = true
+                        }
                     }
                 }
-                else{
-                    
-                }
-            }
-            else{
-                
-            }
-        }
-        else
-            if  (AVFonts.attributeFontLbl[self.font.fontName] != nil) {
-                if (AVFonts.attributeFontSizeLabel[self.font.fontName] != nil){
-                  
+            } else if AVFonts.attributeFontLbl[self.font.fontName] != nil {
+                if AVFonts.attributeFontSizeLabel[self.font.fontName] != nil {
+
                     let fontSize = self.font.pointSize + AVFonts.attributeFontSizeLabel[self.font.fontName]!
                     self.font = UIFont(name: AVFonts.attributeFontLbl[self.font.fontName]!, size: fontSize)
+                } else {
+                    self.font = UIFont(name: AVFonts.attributeFontLbl[self.font.fontName]!, size: self.font.pointSize)
                 }
-                else{
-                
-                self.font = UIFont(name: AVFonts.attributeFontLbl[self.font.fontName]!, size: self.font.pointSize)
-                }
-                
-        }
-        }else{
-            
+            }
+        } else {
             print("You entered an invalid Font Name .Please check your font name")
-            
         }
     }
- 
 }
