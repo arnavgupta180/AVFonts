@@ -53,7 +53,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.1, 8.2, 8.3, and 9.0
-- Swift 3.0, 3.1, 3.2
+- Swift 5.0
 
 
 ## Installation
